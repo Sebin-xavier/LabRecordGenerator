@@ -763,7 +763,7 @@ public class LabRecordGenerator extends JFrame {
 
         addInfoRow(infoTable, "Name:", tfName.getText(), fontReg);
         addInfoRow(infoTable, "Reg No:", tfRegNo.getText(), fontReg);
-        addInfoRow(infoTable, "Semester:", "Fourth Semester B.Tech (ECE)", fontReg);
+        addInfoRow(infoTable, "Semester:", "Fourth Semester B.Tech (EL)", fontReg); //Change to EL
         addInfoRow(infoTable, "Year:", tfYear.getText(), fontReg);
 
         PdfPCell infoContainer = new PdfPCell(infoTable);
